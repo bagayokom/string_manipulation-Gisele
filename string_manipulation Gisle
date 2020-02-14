@@ -1,0 +1,22 @@
+print("Please input a string of more than one word with commas:")
+string = input("")
+character = (len(string))
+first_character = string[:1]
+last_character = string[-1]
+# deleted_third_character = (string[::7])
+upper = string.upper()
+title = string.title()
+alphabetic = string.isalpha()
+individual = string.split()
+every_capital= string.isupper()
+
+
+print(f"Your string has {character} characters")
+print(f"The first character is {first_character}")
+print(f"The last character is {last_character}")
+# print(f"Without the third character, your string is {deleted_third_character}")
+print(f"String uppercase is {upper}")
+print(f"String title case is {title}")
+print(f"String being alphabetic: {alphabetic}")
+print(f"String split: {individual}")
+print(f"Everything Uppercase: {every_capital}")
